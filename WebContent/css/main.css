@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+
+body {
+	
+	margin: 0;
+	padding: 0;
+	
+}
+
+section {
+	
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.max-with {
+	
+	max-width: 1500px
+	
+}
+
+
+
+.slider {
+	
+	height: 200px;
+	background-color: blue;
+	
+}
+
+.content {
+	
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.main_content {
+	
+	height: 400px;
+	min-width: 500px;
+	max-width: 1500px;
+	background-color: red;
+	
+}
+
+.side_content {
+	
+	height: 300px;
+	min-width: 500px;
+	max-width: 1000px;
+	background-color: yellow;
+}
